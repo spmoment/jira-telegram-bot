@@ -23,7 +23,7 @@ public class JiraTelegramBotApplication {
 	private final String URL = "https://api.telegram.org" +
 			"/bot1881483631:AAFVTzoC0vATK7OLCnLLBwolAuRikmdR47Q" +
 			"/sendMessage?chat_id=-527936555&text=" + MESSAGE;
-	private final String SELF_URL = "https://jira-telega1.herokuapp.com/";
+	private final String SELF_URL = "https://jira-telega.herokuapp.com/";
 
 	public static void main(String[] args) {
 		SpringApplication.run(JiraTelegramBotApplication.class);
